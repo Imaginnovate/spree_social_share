@@ -12,8 +12,29 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 
+
+\#*
+*~
+.#*
+.DS_Store
+.idea
+.project
+.sass-cache
+coverage
+Gemfile.lock
+tmp
+nbproject
+pkg
+*.swp
+spec/dummy
+.bundle
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
-config/initializers/secret_token.rb
+# config/initializers/secret_token.rb
 
 # Only include if you have production secrets in this file, which is no longer a Rails default
 # config/secrets.yml
@@ -26,8 +47,6 @@ config/initializers/secret_token.rb
 /.bundle
 /vendor/bundle
 
-# these should all be checked in to normalize the environment:
-# Gemfile.lock, .ruby-version, .ruby-gemset
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
@@ -42,3 +61,4 @@ bower.json
 
 # Ignore Byebug command history file.
 .byebug_history
+
